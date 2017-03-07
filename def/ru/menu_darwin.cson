@@ -3,13 +3,13 @@ Menu:
     value: "Atom"
     submenu:
       "About Atom":
-        value: "О Atom"
+        value: "About Atom"
       "View License":
-        value: "Лицензия"
+        value: "View License"
       "Preferences…":
-        value: "Настройки..."
+        value: "Preferences..."
       "Config…":
-        value: "Конфиг..."
+        value: "Config..."
       "Init Script…":
         value: "Init Script..."
       "Keymap…":
@@ -21,62 +21,62 @@ Menu:
       "Install Shell Commands":
         value: "Install Shell Commands"
       "Hide Atom":
-        value: "Скрыть Atom"
+        value: "Hide Atom"
       "Hide Others":
-        value: "Скрыть другие"
+        value: "Hide Others"
       "Show All":
-        value: "Показать все"
+        value: "Show All"
       Quit:
-        value: "Выйти"
+        value: "Quit"
   File:
-    value: "Файл"
+    value: "File"
     submenu:
       "New Window":
-        value: "Новое окно"
+        value: "New Window"
       "New File":
-        value: "Новый файл"
+        value: "New File"
       "Open…":
-        value: "Открыть..."
+        value: "Open..."
       "Add Project Folder…":
-        value: "Добавить папку проекта..."
+        value: "Add Project Folder..."
       "Reopen Project":
-        value: "Недавно закрытые"
+        value: "Reopen Project"
         submenu:
           "Clear Project History":
-            value: "Очистить историю"
+            value: "Clear Project History"
       "Reopen Last Item":
-        value: "Открыть недавно закрытый файл"
+        value: "Reopen Last Item"
       Save:
-        value: "Сохранить"
+        value: "Save"
       "Save As…":
-        value: "Сохранить как..."
+        value: "Save As..."
       "Save All":
-        value: "Сохранить все"
+        value: "Save All"
       "Close Tab":
-        value: "Закрыть вкладку"
+        value: "Close Tab"
       "Close Pane":
-        value: "Закрыть панель"
+        value: "Close Pane"
       "Close Window":
-        value: "Закрыть окно"
+        value: "Close Window"
       "Close All Tabs":
-        value: "Закрыть все вкладки"
+        value: "Close All Tabs"
   Edit:
-    value: "Редактирование"
+    value: "Edit"
     submenu:
       Undo:
-        value: "Отменить"
+        value: "Undo"
       Redo:
-        value: "Повторить"
+        value: "Redo"
       Cut:
-        value: "Вырезать"
+        value: "Cut"
       Copy:
-        value: "Копировать"
+        value: "Copy"
       "Copy Path":
-        value: "Копировать путь"
+        value: "Copy Path"
       Paste:
-        value: "Вставить"
+        value: "Paste"
       "Select All":
-        value: "Выделить всё"
+        value: "Select All"
       "Toggle Comments":
         value: "Toggle Comments"
       Lines:
@@ -171,7 +171,7 @@ Menu:
       "Select Grammar":
         value: "Select Grammar"
   View:
-    value: "Вид"
+    value: "View"
     submenu:
       "Toggle Full Screen":
         value: "Toggle Full Screen"
@@ -255,7 +255,7 @@ Menu:
       "Select Inside Brackets":
         value: "Select Inside Brackets"
   Find:
-    value: "Поиск"
+    value: "Find"
     submenu:
       "Find in Buffer":
         value: "Find in Buffer"
@@ -280,7 +280,7 @@ Menu:
       "Replace All":
         value: "Replace All"
       "Clear History":
-        value: "Очистить историю поиска"
+        value: "Clear History"
       "Find Buffer":
         value: "Find Buffer"
       "Find File":
@@ -288,23 +288,23 @@ Menu:
       "Find Modified File":
         value: "Find Modified File"
   Packages:
-    value: "Расширения"
+    value: "Packages"
   Window:
-    value: "Окно"
+    value: "Window"
     submenu:
       Minimize:
-        value: "Свернуть"
+        value: "Minimize"
       Zoom:
-        value: "Расширить"
-      "Все окна - на передний план":
+        value: "Zoom"
+      "Bring All to Front":
         value: "Bring All to Front"
   Help:
-    value: "Справка"
+    value: "Help"
     submenu:
       "Terms of Use":
         value: "Terms of Use"
       Documentation:
-        value: "Документация"
+        value: "Documentation"
       Roadmap:
         value: "Roadmap"
       "Frequently Asked Questions":
