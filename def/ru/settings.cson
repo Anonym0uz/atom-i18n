@@ -79,15 +79,15 @@ Settings:
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
-        title: "Allow Pending Pane Items"
-        desc: "Allow items to be previewed without adding them to a pane
-               permanently, such as when single clicking files in the tree view."
+        title: "Разрешить временные файлы в панеле"
+        desc: "Разрешить постоянно просматривать файлы без добавления их в панель,
+        например, при одиночном нажатии на файл в дереве файлов (панеле слева)."
       }
       {
         _id: 'core.audioBeep'
-        title: "Audio Beep"
-        desc: "Trigger the system's beep sound when certain actions cannot be
-               executed or there are no results."
+        title: "Звуковой сигнал"
+        desc: "Звуковой системный сигнал, когда определённое действие не может быть выполнено
+        или нет никаких результатов."
       }
       {
         _id: 'core.automaticallyUpdate'
@@ -116,8 +116,11 @@ Settings:
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
-        title: "Exclude VCS Ignored Paths"
-        desc: "Files and directories ignored by the current project's VCS system will be ignored by some packages, such as the fuzzy finder and find and replace. For example, projects using Git have these paths defined in the .gitignore file. Individual packages might have additional config settings for ignoring VCS ignored files and folders."
+        title: "Исключить игнорирование путей VCS"
+        desc: "Файлы и папки будут проигнорированы в текущих проектах с помощью VCS системы,
+        так же могут быть проигнорированы некоторые расширения в 'fuzzy finder' и найти и заменить.
+        Например, проекты использующие Git имеют некоторые пути определённые в .gitignore файле.
+        В каждый пакет можно добавить файл конфигурации для игнорирования файлов или папок VCS."
       }
       {
         _id: 'core.fileEncoding'
@@ -127,7 +130,7 @@ Settings:
       {
         _id: 'core.followSymlinks'
         title: "Соблюдать символику"
-        desc: "Соблюдать символику при поиске или открытии файло в древе."
+        desc: "Соблюдать символику при поиске или открытии файлов в древе."
       }
       {
         _id: 'core.ignoredNames'
@@ -169,8 +172,8 @@ Settings:
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
-        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        title: "Использовать настройки прокси-сервера при вызове <code>apm</code> в командной строке."
+        desc: "Использовать настройки прокси-сервера при вызове <code>apm</code> в командной строке."
       }
       {
         _id: 'core.useCustomTitleBar'
@@ -184,8 +187,8 @@ Settings:
       }
       {
         _id: 'editor.atomicSoftTabs'
-        title: "Atomic Soft Tabs"
-        desc: "Skip over tab-length runs of leading whitespace when moving the cursor."
+        title: "Пропуск пустых мест"
+        desc: "Пропускать пустые места разделителя при перемещении курсора."
       }
       {
         _id: 'editor.autoIndent'
@@ -205,7 +208,8 @@ Settings:
       {
         _id: 'editor.confirmCheckoutHeadRevision'
         title: "Confirm Checkout HEAD Revision"
-        desc: "Show confirmation dialog when checking out the HEAD revision and discarding changes to current file since last commit."
+        desc: "Показывать подтверждающее окно при проверке HEAD ревизии и
+        отгружать изменения в текущий файл начиная с последнего коммита"
       }
       {
         _id: 'editor.fontFamily'
@@ -219,10 +223,10 @@ Settings:
       }
       {
         _id: 'editor.invisibles.cr'
-        title: "Invisibles Cr"
-        desc: "Character used to render carriage return characters
-               (for Microsoft-style line endings) when the <code>Show
-               Invisibles</code> setting is enabled."
+        title: "Невидимые символы"
+        desc: "Символ, используемый для отображения символов возврата каретки
+               (Microsoft-style окончаний линий) когда <code>Show
+               Invisibles</code> настройка включена."
       }
       {
         _id: 'editor.invisibles.eol'
@@ -232,37 +236,37 @@ Settings:
       }
       {
         _id: 'editor.invisibles.space'
-        title: "Invisibles Space"
-        desc: "Character used to render leading and trailing space characters
-               when the <code>Show Invisibles</code> setting is enabled."
+        title: "Невидимые пробелы"
+        desc: "Показывать символы используемые для визуализации (начальные и конечные пробелы),
+               когда настройка <code>Показывать невидимые символы</code> включена."
       }
       {
         _id: 'editor.invisibles.tab'
-        title: "Invisibles Tab"
-        desc: "Character used to render hard tab characters (\t) when the
-               <code>Show Invisibles</code> setting is enabled."
+        title: "Невидимые 'Tab'"
+        desc: "Символы использованые для 'жесткого' перенесения строки (\t) когда настройка
+               <code>Показывать невидимые символы</code> включена."
       }
       {
         _id: 'editor.lineHeight'
-        title: "Line Height"
-        desc: "Height of editor lines, as a multiplier of font size."
+        title: "Высота линии"
+        desc: "Высота линии в редакторе, как множитель размера шрифта."
       }
       {
         _id: 'editor.nonWordCharacters'
-        title: "Non Word Characters"
-        desc: "A string of non-word characters to define word boundaries."
+        title: "Не буквенные символы"
+        desc: "Строка не буквенных символов для определения границ слова."
       }
       {
         _id: 'editor.preferredLineLength'
-        title: "Preferred Line Length"
-        desc: "Identifies the length of a line which is used when wrapping text
-               with the <code>Soft Wrap At Preferred Line Length</code> setting
+        title: "Предпочитаемая длина линии"
+        desc: "Определяет длину линии которая используется для переноса текста
+               с <code>Soft Wrap At Preferred Line Length</code> setting
                enabled, in number of characters."
       }
       {
         _id: 'editor.scrollPastEnd'
-        title: "Scroll Past End"
-        desc: "Allow the editor to be scrolled past the end of the last line."
+        title: "Пролистывание в конец кода"
+        desc: "Разрешить редактору пролистывать в самый конец последней линии."
       }
       {
         _id: 'editor.scrollSensitivity'
@@ -281,13 +285,12 @@ Settings:
       }
       {
         _id: 'editor.showInvisibles'
-        title: "Show Invisibles"
-        desc: "Render placeholders for invisible characters, such as tabs,
-               spaces and newlines."
+        title: "Показывать невидимые символы"
+        desc: "Показывать невидимые символы, пробелы, линии и прочее."
       }
       {
         _id: 'editor.showLineNumbers'
-        title: "Показывать номера лини"
+        title: "Показывать номера линий"
         desc: "Показывает номера линий в редакторе."
       }
       {
@@ -325,8 +328,8 @@ Settings:
       }
       {
         _id: 'editor.tabLength'
-        title: "Tab Length"
-        desc: "Number of spaces used to represent a tab."
+        title: "Длина вкладки"
+        desc: "Число пробелов, используемых для представления вкладки."
       }
       {
         _id: 'editor.tabType'
